@@ -13,7 +13,7 @@ export type LinkCardElement = {
   title: string
   link: string
   iconImgSrc?: string
-  dataJson?: string
+  json?: string
   children: EmptyText[] // void 元素必须有一个空 text
 }
 

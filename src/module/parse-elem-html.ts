@@ -15,13 +15,13 @@ function parseHtml(
   const link = elem.getAttribute('data-link') || ''
   const title = elem.getAttribute('data-title') || ''
   const iconImgSrc = elem.getAttribute('data-iconImgSrc') || ''
-  const dataJson = elem.getAttribute('data-json') || ''
+  const json = elem.getAttribute('data-json') || ''
   return {
     type: 'link-card',
     link,
     title,
     iconImgSrc,
-    dataJson,
+    json,
     children: [{ text: '' }], // void node 必须有一个空白 text
   } as LinkCardElement
 }

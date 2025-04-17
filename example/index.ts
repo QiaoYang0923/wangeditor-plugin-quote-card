@@ -37,7 +37,8 @@ const editorConfig: Partial<IEditorConfig> = {
 
 const linkCardHtml = `<div data-w-e-type="link-card" data-w-e-is-void data-title="引用原文"
 data-link="察院向阜南县住房和城乡建设局发出检察建议书，督促该局纠正违法行为并采取环境补救措施"
-data-json="https://news-bos.cdn.bcebos.com/mvideo/log-news.png">
+data-iconImgSrc="啊啊啊啊啊啊啊"
+data-json="1111111111111111">
   <div class="info-container">
     <div class="title-container"><p>百度新闻</p></div>
     <div class="text-container"><span>察院向阜南县住房和城乡建设局发出检察建议书，督促该局纠正违法行为并采取环境补救措施</span></div>
